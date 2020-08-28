@@ -1,17 +1,36 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from 'react';
+// import { MemoHook } from './Components/06-memos/MemoHook';
+// import { CallBackHook } from './Components/06-memos/CallBackHook';
+// import { Padre } from './Components/07-tarea-memo/Padre';
+import { TodoApp } from './Components/08-useReducer/TodoApp';
+// import { Memorize } from './Components/06-memos/Memorize';
+// import { FocusScreen } from './Components/04-useRef/FocusScreen';
+// import { RealExampleRef } from './Components/04-useRef/RealExampleRef';
+// import { LayoutEffect } from './Components/05-useLayoutEffect/LayoutEffect';
+// import { CounterWithCustomHook } from './Components/01-useState/CounterWithCustomHook';
+// import { SimpleForm } from './Components/02-useEffect/SimpleForm';
+// import { FormWithCustomHook } from './Components/02-useEffect/FormWithCustomHook';
+// import { MultipleCustomHooks } from './Components/03-examples/MultipleCustomHooks';
+// import { CounterApp } from './Components/CounterApp';
+// import { HookApp } from './HookApp';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    // <HookApp />,
+    // <CounterApp />,
+    // <SimpleForm />,
+    // <FormWithCustomHook />,
+    // <MultipleCustomHooks />,
+    // <FocusScreen />,
+    // <RealExampleRef />,
+    // <LayoutEffect />,
+    // <Memorize />,
+    // <MemoHook />,
+    // <CallBackHook />,
+    // <Padre />,
+    <TodoApp />,
   document.getElementById('root')
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+
+// import './Components/08-useReducer/intro-reducer';
